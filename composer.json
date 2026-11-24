@@ -5,6 +5,8 @@
     "keywords": ["magento2", "salesrule", "gift", "cart", "free"],
     "license": "OSL-3.0",
     "require": {
+        "php": "^8.3",
+        "magento/framework": ">=103.0.7",
         "smile/module-gift-sales-rule": "^2.0"
     },
     "require-dev": {
