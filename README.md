@@ -5,6 +5,15 @@ Gift Sales Rule Stage [![Build Status](https://travis-ci.org/Smile-SA/magento2-m
 
 This module adds the compatibility of the Smile-SA/magento2-module-gift-sales-rule module with Magento staging (magento/module-sales-rule-staging)
 
+## Compatibility
+
+| Module version | Magento | Mage-OS | PHP |
+| --- | --- | --- | --- |
+| 2.1.x | 2.4.6 and later (tested up to 2.4.9) | 1.0.0 and later (tested up to 4.0) | 8.1 to 8.5, as supported by the platform |
+| 1.1.x | 2.4.4 and 2.4.5 | not available | 8.1 |
+
+1.1.x requires `smile/module-gift-sales-rule` 1.2.x, 2.1.x requires 2.x. Earlier releases did not require any Magento version: 1.0.x goes with gift-sales-rule 1.1.x, 2.0.0 with 2.0.x (Magento 2.4.7 or later).
+
 ## Who is developing this module ? 
 
 ![Smile](doc/static/smile.png)
