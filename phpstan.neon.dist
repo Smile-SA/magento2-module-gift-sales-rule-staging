@@ -1,0 +1,12 @@
+parameters:
+    level: 6
+    phpVersion: 80100
+    # The static analysis runs with phpstan 1 on Magento 2.4.5, some ignored errors are only reported by phpstan 2
+    reportUnmatchedIgnoredErrors: false
+    paths:
+        - .
+    excludePaths:
+        - 'vendor/*'
+
+includes:
+    - %currentWorkingDirectory%/vendor/smile/magento2-smilelab-phpstan/extension.neon
